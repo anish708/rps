@@ -1,8 +1,12 @@
 function showScoreboard () {
     OLED.clear()
+    OLED.newLine()
     OLED.writeStringNewLine("Player A:" + PA)
+    OLED.newLine()
     OLED.writeStringNewLine("Player B:" + PB)
+    OLED.newLine()
     OLED.writeStringNewLine("Ties:" + Ties)
+    OLED.newLine()
     OLED.writeStringNewLine("Rounds:" + Rounds)
 }
 let Rounds = 0
