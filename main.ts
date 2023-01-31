@@ -3,6 +3,7 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     PA += 1
     Rounds += 1
+    showScoreboard()
 })
 function showScoreboard () {
     OLED.clear()
